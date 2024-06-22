@@ -1,0 +1,13 @@
+.main-hero {
+  position: relative;
+
+  height: 100vh;
+  min-height: rem(700px);
+  max-height: rem(1280px);
+
+  background: tomato;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

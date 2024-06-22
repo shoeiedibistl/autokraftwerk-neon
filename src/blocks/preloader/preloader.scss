@@ -1,0 +1,125 @@
+.preloader {
+  position: fixed;
+  inset: 0;
+  z-index: 99;
+  background: #0c100f;
+  color: #fff;
+  font-size: rem(40px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__item {
+    width: 11.1%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+
+    &[data-preloader-item='0'] {
+      animation: preloader-item-anim 3s infinite forwards linear;
+
+      &.fix {
+        animation: preloader-item-fix 1.5s forwards ease-out;
+      }
+    }
+
+    &[data-preloader-item='1'] {
+      animation: preloader-item-anim 5s infinite forwards linear;
+
+      &.fix {
+        animation: preloader-item-fix 1.5s forwards ease-out;
+      }
+    }
+
+    &[data-preloader-item='2'] {
+      animation: preloader-item-anim 8s infinite forwards linear;
+
+      &.fix {
+        animation: preloader-item-fix 1.5s forwards ease-out;
+      }
+    }
+
+    &[data-preloader-item='3'] {
+      animation: preloader-item-anim 4s infinite forwards linear;
+
+      &.fix {
+        animation: preloader-item-fix 1.5s forwards ease-out;
+      }
+    }
+
+    &[data-preloader-item='4'] {
+      animation: preloader-item-anim 2.5s infinite forwards linear;
+
+      &.fix {
+        animation: preloader-item-fix 1.5s forwards ease-out;
+      }
+    }
+
+    &[data-preloader-item='5'] {
+      animation: preloader-item-anim 12s infinite forwards linear;
+
+      &.fix {
+        animation: preloader-item-fix 1.5s forwards ease-out;
+      }
+    }
+
+    &[data-preloader-item='6'] {
+      animation: preloader-item-anim 5.5s infinite forwards linear;
+
+      &.fix {
+        animation: preloader-item-fix 1.5s forwards ease-out;
+      }
+    }
+
+    &[data-preloader-item='7'] {
+      animation: preloader-item-anim 7.5s infinite forwards linear;
+
+      &.fix {
+        animation: preloader-item-fix 1.5s forwards ease-out;
+      }
+    }
+
+    &[data-preloader-item='8'] {
+      animation: preloader-item-anim 6.5s infinite forwards linear;
+
+      &.fix {
+        animation: preloader-item-fix 1.5s forwards ease-out;
+      }
+    }
+  }
+}
+
+@keyframes preloader-item-anim {
+  from {
+    transform: translateY(100%);
+  }
+
+  to {
+    transform: translateY(-100%);
+  }
+}
+
+@keyframes preloader-item-fix {
+  from {
+    transform: translateY(100%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+.stop-anim {
+  position: absolute;
+  bottom: 200px;
+  right: 200px;
+
+  width: 200px;
+  height: 50px;
+
+  font-size: rem(30px);
+}

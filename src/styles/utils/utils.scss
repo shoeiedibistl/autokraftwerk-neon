@@ -1,16 +1,16 @@
-.desktop{
+.desktop {
   @media #{media('<',d)} {
     display: none !important;
   }
 }
 
-.mobile{
+.mobile {
   @media #{media('>', m)} {
     display: none !important;
   }
 }
 
-.tablet{
+.tablet {
   @media #{media('>',d)} {
     display: none !important;
   }
@@ -20,8 +20,12 @@
   }
 }
 
-.devices{
+.devices {
   @media #{media('>',d)} {
     display: none !important;
   }
+}
+
+.test {
+  border: 2px solid red !important;
 }
