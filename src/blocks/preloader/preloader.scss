@@ -27,6 +27,7 @@
     > img,
     picture {
       width: 100%;
+      scale: 1 1.15;
     }
 
     &[data-preloader-item='0'] {
