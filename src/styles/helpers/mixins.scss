@@ -5,13 +5,13 @@
   &::-moz-placeholder {
     @content;
   }
-  &:-ms-input-placeholder{
+  &:-ms-input-placeholder {
     @content;
   }
   &:-moz-placeholder {
     @content;
   }
-  &::placeholder  {
+  &::placeholder {
     @content;
   }
 }
@@ -37,22 +37,24 @@
   }
 }
 
-@mixin styled-scrollbar($scrollbar-bg: #EEF1F3, $size: 6px) {
+@mixin styled-scrollbar($scrollbar-bg: #eef1f3, $size: 6px) {
   scrollbar-track-color: $scrollbar-bg;
   scrollbar-darkshadow-color: $scrollbar-bg;
   scrollbar-3dlight-color: $scrollbar-bg;
-  
+
   scrollbar-arrow-color: color(green);
-  
+
   scrollbar-highlight-color: color(green);
   scrollbar-shadow-color: color(green);
   scrollbar-face-color: color(green);
 
   // firefox
+
   scrollbar-width: thin;
   scrollbar-color: color(green) $scrollbar-bg;
 
   // chrome, edge, opera, safari
+
   &::-webkit-scrollbar {
     width: $size;
   }
@@ -61,6 +63,7 @@
   }
   &::-webkit-scrollbar-thumb {
     // margin: 4px 0;
+
     background-color: color(green);
   }
 }
