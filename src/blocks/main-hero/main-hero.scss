@@ -5,9 +5,29 @@
   min-height: rem(700px);
   max-height: rem(1280px);
 
-  background: tomato;
-  color: #fff;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+
+  color: #fff;
+
+  &__inner {
+    position: relative;
+
+    height: rem(700px);
+    width: 100%;
+
+    padding: rem(60px);
+  }
+
+  .pause-animation,
+  .pause-animation * {
+    animation-delay: 99999999s !important;
+    opacity: 0;
+  }
+
+  .neon-logo {
+    margin-left: rem(60px);
+    margin-top: rem(130px);
+  }
 }

@@ -1,14 +1,23 @@
 mixin preloader(mods)
   .preloader(class=allMods)&attributes(attributes)
-    .preloader__item.test(data-preloader-item='0') 1
-    .preloader__item.test(data-preloader-item='1') 2
-    .preloader__item.test(data-preloader-item='2') 3 
-    .preloader__item.test(data-preloader-item='3') 4
-    .preloader__item.test(data-preloader-item='4') 5
-    .preloader__item.test(data-preloader-item='5') 6 
-    .preloader__item.test(data-preloader-item='6') 7
-    .preloader__item.test(data-preloader-item='7') 8
-    .preloader__item.test(data-preloader-item='8') 9
-    .preloader__scale
+    .preloader__item(data-preloader-item='0')
+      img(src="images/preloader/preloader-1.png", alt="")
+    .preloader__item(data-preloader-item='1')
+      img(src="images/preloader/preloader-2.png", alt="")
+    .preloader__item(data-preloader-item='2')
+      img(src="images/preloader/preloader-3.png", alt="")
+    .preloader__item(data-preloader-item='3')
+      img(src="images/preloader/preloader-4.png", alt="")
+    .preloader__item(data-preloader-item='4')
+      img(src="images/preloader/preloader-5.png", alt="")
+    .preloader__item(data-preloader-item='5')
+      img(src="images/preloader/preloader-6.png", alt="")
+    .preloader__item(data-preloader-item='6')
+      img(src="images/preloader/preloader-7.png", alt="")
+    .preloader__item(data-preloader-item='7')
+      img(src="images/preloader/preloader-8.png", alt="")
+    .preloader__item(data-preloader-item='8')
+      img(src="images/preloader/preloader-9.png", alt="")
+    .preloader__scale(data-page-loaded='hide')
       .preloader__scale-loading
 

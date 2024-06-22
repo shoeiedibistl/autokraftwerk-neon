@@ -1,0 +1,24 @@
+.neon-logo {
+  // position: fixed;
+  // left: rem(180px);
+  // top: rem(430px);
+  // z-index: 1;
+
+  text-transform: uppercase;
+  // color: #fff;
+
+  &__auto {
+    font-family: Zen;
+    font-size: rem(102px);
+  }
+
+  &__kraftwerk {
+    font-family: Inter;
+    // font-family: Anavah;
+
+    font-weight: 200;
+    font-style: italic;
+    font-size: rem(80px);
+    margin-left: rem(-20px);
+  }
+}

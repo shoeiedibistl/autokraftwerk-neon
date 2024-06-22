@@ -1,14 +1,45 @@
 @font-face {
   font-family: 'TT Rounds Neue';
   font-style: normal;
-  font-weight: 620;
+  font-weight: 600;
   font-display: swap;
   src: url('../fonts/ttroundsneue-demibold.woff') format('woff');
 }
 @font-face {
   font-family: 'TT Rounds Neue';
   font-style: normal;
-  font-weight: 420;
+  font-weight: 400;
   font-display: swap;
   src: url('../fonts/ttroundsneue-regular.woff') format('woff');
+}
+@font-face {
+  font-family: 'Monoton';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/monoton.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url('../fonts/Inter-ExtraLightItalic.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Zen';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/ZenTokyoZoo.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Anavah';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/anavah.ttf');
 }
