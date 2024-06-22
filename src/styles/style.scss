@@ -1,0 +1,14 @@
+@layer defaults,libs, components, utilities;
+@import './core/**/*';
+@import './core/reset';
+@import 'utils/**/*';
+@import 'helpers/mixins';
+@import 'helpers/base';
+@import '../layout/layout';
+@import '../../node_modules/@fancyapps/ui/dist/fancybox.css' layer(libs);
+@import '../../node_modules/flatpickr/dist/flatpickr.min.css' layer(libs);
+@import '../../node_modules/swiper/swiper-bundle.min.css' layer(libs);
+@import './components/**/*';
+@import 'section/**/*';
+@import 'pages/**/*';
+@import '../blocks/**/*';
