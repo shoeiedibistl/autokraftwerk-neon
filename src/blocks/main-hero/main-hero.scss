@@ -23,6 +23,7 @@
   .pause-animation,
   .pause-animation * {
     animation-delay: 99999999s !important;
+    animation-duration: 99999999s !important;
     opacity: 0;
   }
 

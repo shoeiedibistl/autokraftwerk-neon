@@ -7,6 +7,8 @@
   text-transform: uppercase;
   // color: #fff;
 
+  transition: $transition;
+
   &__auto {
     font-family: Zen;
     font-size: rem(102px);
