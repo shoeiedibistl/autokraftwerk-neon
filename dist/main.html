@@ -1,0 +1,59 @@
+
+<!--передаем уникальный io-->
+<!--Для добавления мобильной версии картинки добавляем вторым параметром true-->
+<!--Например +picture('image.jpg', 'true')-->
+<!--Миксин будет искать картинку с названием image-mob.jpg (тоесть вторая картинка должна иметь такое же название как и основная, только с добавлением -mob.png/jpg и тд)--><!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Main</title>
+    <meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport">
+    <meta name="format-detection" content="telephone=no">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <link href="https://vitejs.dev/logo.svg" rel="icon" type="image/x-icon">
+    <script type="module" crossorigin src="assets/index.js"></script>
+    <link rel="stylesheet" href="styles/index.css">
+  </head>
+  <body class="body">
+    <div class="wrapper">
+      <div class="modal-block">
+      </div>
+      <header class="header">
+        <div class="inner">header</div>
+      </header>
+      <main>
+        <div class="inner">
+          <div class="main-hero">
+            <div class="preloader">
+              <div class="preloader__item" data-preloader-item="0"><img src="images/preloader/preloader-1.png" alt=""/></div>
+              <div class="preloader__item" data-preloader-item="1"><img src="images/preloader/preloader-2.png" alt=""/></div>
+              <div class="preloader__item" data-preloader-item="2"><img src="images/preloader/preloader-3.png" alt=""/></div>
+              <div class="preloader__item" data-preloader-item="3"><img src="images/preloader/preloader-4.png" alt=""/></div>
+              <div class="preloader__item" data-preloader-item="4"><img src="images/preloader/preloader-5.png" alt=""/></div>
+              <div class="preloader__item" data-preloader-item="5"><img src="images/preloader/preloader-6.png" alt=""/></div>
+              <div class="preloader__item" data-preloader-item="6"><img src="images/preloader/preloader-7.png" alt=""/></div>
+              <div class="preloader__item" data-preloader-item="7"><img src="images/preloader/preloader-8.png" alt=""/></div>
+              <div class="preloader__item" data-preloader-item="8"><img src="images/preloader/preloader-9.png" alt=""/></div>
+              <div class="preloader__scale" data-page-loaded="hide">
+                <div class="preloader__scale-loading"></div>
+              </div>
+            </div>
+            <div class="main-hero__inner">
+              <div class="neon-logo pause-animation" data-page-loaded="start-anim">
+                <p class="neon-logo__auto sign-pink" data-page-loaded="start-anim"> <span class="fast-flicker-pink">a</span>uto</p>
+                <p class="neon-logo__kraftwerk sign-blue" data-page-loaded="start-anim">
+                   kra<span class="flicker-blue">f</span>twerk</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <div class="footer">
+        <div class="inner">
+          <p> Footer</p>
+        </div>
+      </div>
+    </div>
+    
+  </body>
+</html>

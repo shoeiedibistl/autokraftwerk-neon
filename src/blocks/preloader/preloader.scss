@@ -39,7 +39,6 @@
     }
 
     &[data-preloader-item='1'] {
-      /*  animation: preloader-item-anim 4.75s infinite forwards linear; */
       animation: preloader-item-anim 4.75s infinite forwards reverse linear;
 
       &.fix {
@@ -72,7 +71,7 @@
     }
 
     &[data-preloader-item='5'] {
-      animation: preloader-item-anim 7.5s infinite forwards reverse linear;
+      animation: preloader-item-anim 7.75s infinite forwards reverse linear;
 
       &.fix {
         animation: preloader-item-fix-reverse 1.5s forwards cubic-bezier(0.29, 0.84, 0.64, 0.96);
@@ -88,7 +87,7 @@
     }
 
     &[data-preloader-item='7'] {
-      animation: preloader-item-anim 7s infinite forwards linear;
+      animation: preloader-item-anim 7.25s infinite forwards linear;
 
       &.fix {
         animation: preloader-item-fix 1.5s forwards cubic-bezier(0.29, 0.84, 0.64, 0.96);

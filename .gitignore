@@ -12,8 +12,5 @@ Thumbs.db
 .stylelintcache
 node_modules/
 
-# Папка с собранными файлами проекта
-dist/
-
 # Генерируемые файлы
 src/blocks/mixins.pug
