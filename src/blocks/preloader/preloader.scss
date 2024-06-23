@@ -34,7 +34,7 @@
       animation: preloader-item-anim 3s infinite forwards linear;
 
       &.fix {
-        animation: preloader-item-fix 1.5s forwards cubic-bezier(0.29, 0.84, 0.64, 0.96);
+        animation: preloader-item-fix 1.5s forwards ease-out;
       }
     }
 
@@ -42,7 +42,7 @@
       animation: preloader-item-anim 4.75s infinite forwards reverse linear;
 
       &.fix {
-        animation: preloader-item-fix-reverse 1.5s forwards cubic-bezier(0.29, 0.84, 0.64, 0.96);
+        animation: preloader-item-fix-reverse 1.5s forwards ease-out;
       }
     }
 
@@ -50,7 +50,7 @@
       animation: preloader-item-anim 6s infinite forwards linear;
 
       &.fix {
-        animation: preloader-item-fix 1.5s forwards cubic-bezier(0.29, 0.84, 0.64, 0.96);
+        animation: preloader-item-fix 1.5s forwards ease-out;
       }
     }
 
@@ -58,7 +58,7 @@
       animation: preloader-item-anim 4s infinite forwards linear;
 
       &.fix {
-        animation: preloader-item-fix 1.5s forwards cubic-bezier(0.29, 0.84, 0.64, 0.96);
+        animation: preloader-item-fix 1.5s forwards ease-out;
       }
     }
 
@@ -66,7 +66,7 @@
       animation: preloader-item-anim 2.5s infinite forwards linear;
 
       &.fix {
-        animation: preloader-item-fix 1.5s forwards cubic-bezier(0.29, 0.84, 0.64, 0.96);
+        animation: preloader-item-fix 1.5s forwards ease-out;
       }
     }
 
@@ -74,7 +74,7 @@
       animation: preloader-item-anim 7.75s infinite forwards reverse linear;
 
       &.fix {
-        animation: preloader-item-fix-reverse 1.5s forwards cubic-bezier(0.29, 0.84, 0.64, 0.96);
+        animation: preloader-item-fix-reverse 1.5s forwards ease-out;
       }
     }
 
@@ -82,7 +82,7 @@
       animation: preloader-item-anim 5.25s infinite forwards linear;
 
       &.fix {
-        animation: preloader-item-fix 1.5s forwards cubic-bezier(0.29, 0.84, 0.64, 0.96);
+        animation: preloader-item-fix 1.5s forwards ease-out;
       }
     }
 
@@ -90,7 +90,7 @@
       animation: preloader-item-anim 7.25s infinite forwards linear;
 
       &.fix {
-        animation: preloader-item-fix 1.5s forwards cubic-bezier(0.29, 0.84, 0.64, 0.96);
+        animation: preloader-item-fix 1.5s forwards ease-out;
       }
     }
 
@@ -98,7 +98,7 @@
       animation: preloader-item-anim 3.75s infinite forwards reverse linear;
 
       &.fix {
-        animation: preloader-item-fix-reverse 1.5s forwards cubic-bezier(0.29, 0.84, 0.64, 0.96);
+        animation: preloader-item-fix-reverse 1.5s forwards ease-out;
       }
     }
   }
