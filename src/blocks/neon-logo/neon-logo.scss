@@ -12,6 +12,8 @@
     // font-family: Monoton;
     // font-size: rem(90px);
     text-transform: uppercase;
+
+    letter-spacing: 0.06em;
   }
 
   &__kraftwerk {
@@ -24,5 +26,6 @@
     font-size: rem(74px);
     rotate: -7deg;
     // margin-left: rem(-20px);
+    letter-spacing: 0.05em;
   }
 }
