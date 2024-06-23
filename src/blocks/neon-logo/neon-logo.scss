@@ -1,28 +1,28 @@
 .neon-logo {
-  // position: fixed;
-  // left: rem(180px);
-  // top: rem(430px);
-  // z-index: 1;
-
-  text-transform: uppercase;
-  // color: #fff;
+  width: fit-content;
 
   transition: $transition;
   transition-delay: 0.5s;
 
   &__auto {
+    width: fit-content;
+
     font-family: Zen;
     font-size: rem(102px);
+    // font-family: Monoton;
+    // font-size: rem(90px);
+    text-transform: uppercase;
   }
 
   &__kraftwerk {
-    font-family: Inter;
-    // font-family: Anavah;
+    width: fit-content;
+    // font-family: Inter;
+    font-family: fabfelt;
 
     font-weight: 200;
     font-style: italic;
-    // font-size: rem(80px);
-    font-size: rem(50px);
+    font-size: rem(74px);
+    rotate: -7deg;
     // margin-left: rem(-20px);
   }
 }

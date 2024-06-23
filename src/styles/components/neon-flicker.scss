@@ -4,7 +4,7 @@
   text-shadow: 0 0 1.6rem #effcff, 0 0 2.5rem rgba(101, 245, 255, 0.5),
     -0.2rem 0.1rem 2rem rgba(101, 245, 255, 0.5), 0.2rem 0.1rem 2rem rgba(101, 245, 255, 0.5),
     0 -0.5rem 3rem rgba(36, 229, 255, 0.5), 0 0.5rem 4rem rgba(36, 229, 255, 0.5);
-  animation: shine-blue 2s forwards, flicker-blue 3s infinite;
+  animation: shine-blue 4s forwards, flicker-blue 6s infinite;
 }
 
 @keyframes blink-blue {
@@ -30,11 +30,11 @@
 }
 
 .flicker-blue {
-  animation: shine-blue 2s forwards, blink-blue 3s 2s infinite;
+  animation: shine-blue 4s forwards, blink-blue 6s 4s infinite;
 }
 
 .fast-flicker-blue {
-  animation: shine-blue 2s forwards, blink-blue 10s 1s infinite;
+  animation: shine-blue 4s forwards, blink-blue 20s 2s infinite;
 }
 
 @keyframes shine-blue {
@@ -182,7 +182,7 @@
   text-shadow: 0 0 1rem #fff2ff, 0 0 2rem rgba(255, 101, 188, 0.5),
     -0.2rem 0.1rem 1.5rem rgba(255, 101, 188, 0.5), 0.2rem 0.1rem 1.5rem rgba(255, 101, 188, 0.5),
     0 -0.5rem 2.5rem rgba(255, 36, 131, 0.5), 0 0.5rem 3.5rem rgba(255, 101, 188, 0.5);
-  animation: shine-pink 2s forwards, flicker-pink 3s infinite;
+  animation: shine-pink 4s forwards, flicker-pink 6s infinite;
 }
 
 @keyframes blink-pink {
@@ -208,11 +208,11 @@
 }
 
 .flicker-pink {
-  animation: shine-pink 2s forwards, blink-pink 3s 2s infinite;
+  animation: shine-pink 4s forwards, blink-pink 6s 4s infinite;
 }
 
 .fast-flicker-pink {
-  animation: shine-pink 2s forwards, blink-pink 10s 1s infinite;
+  animation: shine-pink 4s forwards, blink-pink 20s 2s infinite;
 }
 
 @keyframes shine-pink {
