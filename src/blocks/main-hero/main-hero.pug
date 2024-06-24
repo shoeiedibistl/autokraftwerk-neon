@@ -2,5 +2,7 @@ mixin main-hero
   .main-hero
     +preloader
 
-    .main-hero__inner
+    .main-hero__inner.pause-animation(data-page-loaded='start-anim')
       +neon-logo
+
+      h1.main-hero__title.pause-animation(data-page-loaded='start-anim') Кузов ручной работы

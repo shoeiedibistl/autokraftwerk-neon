@@ -25,15 +25,26 @@
     animation-delay: 99999999s !important;
     animation-duration: 99999999s !important;
     opacity: 0;
+    visibility: hidden;
   }
 
   .neon-logo {
     margin-left: rem(120px);
     // margin-top: rem(112px);
-    margin-top: rem(20px);
+    margin-top: rem(-60px);
 
     * {
       animation-delay: 11s;
     }
+  }
+
+  &__title {
+    width: rem(700px);
+    font-size: rem(104px);
+    margin-left: rem(120px);
+    margin-top: rem(100px);
+    opacity: 0.8;
+
+    transition: $transition 1s;
   }
 }
