@@ -1,4 +1,5 @@
 import { scrollParallax } from '../components/scrollParallax';
+import { resumeLenis } from './lenis';
 
 export const stopAnim = () => {
   const preloader = document.querySelector('.preloader');
@@ -26,6 +27,7 @@ export const stopAnim = () => {
             //            preloader.style.opacity = '0';
             setTimeout(() => {
               animOnLoad.forEach((item) => item.classList.remove('pause-animation'));
+              resumeLenis();
             }, 300);
           }, 3000);
         }
