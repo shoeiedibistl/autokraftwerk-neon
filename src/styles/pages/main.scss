@@ -3,12 +3,16 @@
   background: rgb(6, 4, 2);
 
   &.loaded {
-    overflow-y: auto;
+    //overflow-y: auto;
     [data-page-loaded='hide'] {
       transition: $transition;
       transition-duration: 0.8s;
       visibility: hidden;
       opacity: 0;
+    }
+
+    @media #{media('<',d)} {
+      overflow-y: auto;
     }
   }
 }

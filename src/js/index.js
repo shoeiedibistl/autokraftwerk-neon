@@ -9,6 +9,7 @@ import { modals } from '../blocks/modals/modals';
 import { stopAnim } from './components/stopAnim';
 import { initLenis } from './components/lenis';
 import { stopLenis } from './components/lenis';
+import { myCursor } from './components/cursor';
 
 stopAnim();
 
@@ -19,4 +20,5 @@ document.addEventListener('DOMContentLoaded', function () {
   modals();
   initLenis();
   stopLenis();
+  myCursor();
 });

@@ -41,13 +41,13 @@ export const initLenis = () => {
 };
 
 export function stopLenis() {
-  if (window.screen.width > 1024 && !is_safari) {
+  if (window.screen.width > 1200 && !is_safari) {
     lenis.stop();
   }
 }
 
 export function resumeLenis() {
-  if (window.screen.width > 1024 && !is_safari) {
+  if (window.screen.width > 1200 && !is_safari) {
     lenis.start();
   }
 }
