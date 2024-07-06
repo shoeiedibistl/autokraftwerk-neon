@@ -3,7 +3,7 @@
 <!--Для добавления мобильной версии картинки добавляем вторым параметром true-->
 <!--Например +picture('image.jpg', 'true')-->
 <!--Миксин будет искать картинку с названием image-mob.jpg (тоесть вторая картинка должна иметь такое же название как и основная, только с добавлением -mob.png/jpg и тд)--><!DOCTYPE html>
-<html lang="ru">
+<html class="lenis lenis-smooth" lang="ru">
   <head>
     <meta charset="utf-8">
     <title>Main</title>
@@ -36,36 +36,38 @@
         <div class="inner">
           <div class="main-hero">
             <div class="preloader">
-              <div class="preloader__item" data-preloader-item="0"><img src="images/preloader/preloader-1.png" alt=""/></div>
-              <div class="preloader__item" data-preloader-item="1"><img src="images/preloader/preloader-2.png" alt=""/></div>
-              <div class="preloader__item" data-preloader-item="2"><img src="images/preloader/preloader-3.png" alt=""/></div>
-              <div class="preloader__item" data-preloader-item="3"><img src="images/preloader/preloader-4.png" alt=""/></div>
-              <div class="preloader__item" data-preloader-item="4"><img src="images/preloader/preloader-5.png" alt=""/></div>
-              <div class="preloader__item" data-preloader-item="5"><img src="images/preloader/preloader-6.png" alt=""/></div>
-              <div class="preloader__item" data-preloader-item="6"><img src="images/preloader/preloader-7.png" alt=""/></div>
-              <div class="preloader__item" data-preloader-item="7"><img src="images/preloader/preloader-8.png" alt=""/></div>
-              <div class="preloader__item" data-preloader-item="8"><img src="images/preloader/preloader-9.png" alt=""/></div>
+              <div class="preloader__item" data-preloader-item="0" data-parallax-item="data-parallax-item" data-parallax-speed="1.6"><img src="images/preloader/preloader-1.png" alt=""/></div>
+              <div class="preloader__item" data-preloader-item="1" data-parallax-item="data-parallax-item" data-parallax-speed="2.3"><img src="images/preloader/preloader-2.png" alt=""/></div>
+              <div class="preloader__item" data-preloader-item="2" data-parallax-item="data-parallax-item" data-parallax-speed="0.55"><img src="images/preloader/preloader-3.png" alt=""/></div>
+              <div class="preloader__item" data-preloader-item="3" data-parallax-item="data-parallax-item" data-parallax-speed="0.75"><img src="images/preloader/preloader-4.png" alt=""/></div>
+              <div class="preloader__item" data-preloader-item="4" data-parallax-item="data-parallax-item" data-parallax-speed="1.8"><img src="images/preloader/preloader-5.png" alt=""/></div>
+              <div class="preloader__item" data-preloader-item="5" data-parallax-item="data-parallax-item" data-parallax-speed="0.9"><img src="images/preloader/preloader-6.png" alt=""/></div>
+              <div class="preloader__item" data-preloader-item="6" data-parallax-item="data-parallax-item" data-parallax-speed="1.4"><img src="images/preloader/preloader-7.png" alt=""/></div>
+              <div class="preloader__item" data-preloader-item="7" data-parallax-item="data-parallax-item" data-parallax-speed="2.5"><img src="images/preloader/preloader-8.png" alt=""/></div>
+              <div class="preloader__item" data-preloader-item="8" data-parallax-item="data-parallax-item" data-parallax-speed="1.75"><img src="images/preloader/preloader-9.png" alt=""/></div>
               <div class="preloader__scale" data-page-loaded="hide">
                 <div class="preloader__scale-loading"></div>
               </div>
             </div>
             <div class="main-hero__inner pause-animation" data-page-loaded="start-anim">
-              <div class="neon-logo pause-animation" data-page-loaded="start-anim">
-                <p class="neon-logo__auto sign-pink" data-page-loaded="start-anim">
-                   au<span class="fast-flicker-pink">t</span>o</p>
-                <p class="neon-logo__kraftwerk sign-blue" data-page-loaded="start-anim"> <span class="flicker-blue">K</span>raftwerk</p>
+              <div class="main-hero__logo" data-parallax-item="data-parallax-item" data-parallax-speed="3">
+                <div class="neon-logo pause-animation" data-page-loaded="start-anim">
+                  <p class="neon-logo__auto sign-pink" data-page-loaded="start-anim">
+                     au<span class="fast-flicker-pink">t</span>o</p>
+                  <p class="neon-logo__kraftwerk sign-blue" data-page-loaded="start-anim"> <span class="flicker-blue">K</span>raftwerk</p>
+                </div>
               </div>
-              <h1 class="main-hero__title pause-animation" data-page-loaded="start-anim">Кузов ручной работы</h1>
-              <h2 class="main-hero__subtitle pause-animation" data-page-loaded="start-anim">Кузовной и малярный ремонт любой сложности в Воронеже</h2>
+              <h1 class="main-hero__title pause-animation" data-page-loaded="start-anim" data-parallax-item="data-parallax-item" data-parallax-speed="1.8">Кузов ручной работы</h1>
+              <h2 class="main-hero__subtitle pause-animation" data-page-loaded="start-anim" data-parallax-item="data-parallax-item" data-parallax-speed="1.5">Кузовной и малярный ремонт любой сложности в Воронеже</h2>
             </div>
           </div>
         </div>
       </main>
-      <div class="footer">
+      <footer class="footer">
         <div class="inner">
           <p> Footer</p>
         </div>
-      </div>
+      </footer>
     </div>
     
   </body>

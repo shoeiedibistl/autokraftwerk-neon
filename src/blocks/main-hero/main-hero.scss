@@ -20,6 +20,11 @@
     padding: rem(60px);
   }
 
+  &__logo {
+    position: relative;
+    transition: 1s ease-out 0s;
+  }
+
   .neon-logo {
     // margin-left: rem(120px);
     // margin-left: rem(40px);
@@ -32,6 +37,7 @@
   }
 
   &__title {
+    position: relative;
     width: rem(700px);
     font-size: rem(48px);
     // margin-left: rem(120px);
@@ -47,6 +53,7 @@
   }
 
   &__subtitle {
+    position: relative;
     width: fit-content;
     font-size: rem(24px);
     margin: rem(192px) auto 0;

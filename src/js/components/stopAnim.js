@@ -1,3 +1,5 @@
+import { scrollParallax } from '../components/scrollParallax';
+
 export const stopAnim = () => {
   const preloader = document.querySelector('.preloader');
   const preloaderItems = preloader.querySelectorAll('[data-preloader-item]');
@@ -18,7 +20,9 @@ export const stopAnim = () => {
         if (counter === preloaderItems.length) {
           loadingScale.classList.add('loaded');
           setTimeout(() => {
+            scrollParallax();
             myPage.classList.add('loaded');
+
             //            preloader.style.opacity = '0';
             setTimeout(() => {
               animOnLoad.forEach((item) => item.classList.remove('pause-animation'));

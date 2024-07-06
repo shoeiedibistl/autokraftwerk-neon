@@ -3,7 +3,8 @@ mixin main-hero
     +preloader
 
     .main-hero__inner.pause-animation(data-page-loaded='start-anim')
-      +neon-logo
+      .main-hero__logo(data-parallax-item, data-parallax-speed='3')
+        +neon-logo
 
-      h1.main-hero__title.pause-animation(data-page-loaded='start-anim') Кузов ручной работы
-      h2.main-hero__subtitle.pause-animation(data-page-loaded='start-anim') Кузовной и малярный ремонт любой сложности в Воронеже
+      h1.main-hero__title.pause-animation(data-page-loaded='start-anim' data-parallax-item data-parallax-speed='1.8') Кузов ручной работы
+      h2.main-hero__subtitle.pause-animation(data-page-loaded='start-anim' data-parallax-item data-parallax-speed='1.5') Кузовной и малярный ремонт любой сложности в Воронеже

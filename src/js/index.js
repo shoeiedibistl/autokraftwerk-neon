@@ -7,6 +7,9 @@ import { inputReset } from './components/inputReset';
 import { modals } from '../blocks/modals/modals';
 
 import { stopAnim } from './components/stopAnim';
+import { initLenis } from './components/lenis';
+import { stopLenis } from './components/lenis';
+import { resumeLenis } from './components/lenis';
 
 stopAnim();
 
@@ -15,4 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
   select();
   accordion();
   modals();
+  initLenis();
+  stopLenis();
+  resumeLenis();
 });
