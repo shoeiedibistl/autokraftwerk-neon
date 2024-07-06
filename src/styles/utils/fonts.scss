@@ -21,14 +21,6 @@
 }
 
 @font-face {
-  font-family: 'Inter';
-  font-style: italic;
-  font-weight: 200;
-  font-display: swap;
-  src: url('../fonts/Inter-ExtraLightItalic.woff') format('woff');
-}
-
-@font-face {
   font-family: 'Zen';
   font-style: normal;
   font-weight: 400;
@@ -58,4 +50,20 @@
   font-weight: 400;
   font-display: swap;
   src: url('../fonts/Zamenhof.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'LexendDeca';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/Lexend-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'GothamSSm';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../fonts/GothamSSm-Bold.woff') format('woff');
 }

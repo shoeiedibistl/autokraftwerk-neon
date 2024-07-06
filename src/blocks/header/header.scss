@@ -10,4 +10,33 @@
 
   // background: green;
   color: #fff;
+
+  &__menu {
+    transition: $transition 1s;
+  }
+
+  &__inner {
+    padding: rem(40px) rem(60px) rem(20px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__nav {
+    display: flex;
+    gap: rem(60px);
+
+    &-link {
+      display: block;
+      width: fit-content;
+      padding-bottom: rem(20px);
+      opacity: 0.9;
+      font-family: 'GothamSSm';
+      text-transform: uppercase;
+      letter-spacing: 0.25em;
+      text-align: center;
+      color: #fff;
+      opacity: 0.9;
+    }
+  }
 }

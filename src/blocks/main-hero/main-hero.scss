@@ -20,16 +20,9 @@
     padding: rem(60px);
   }
 
-  .pause-animation,
-  .pause-animation * {
-    animation-delay: 99999999s !important;
-    animation-duration: 99999999s !important;
-    opacity: 0;
-    visibility: hidden;
-  }
-
   .neon-logo {
-    margin-left: rem(120px);
+    // margin-left: rem(120px);
+    // margin-left: rem(40px);
     // margin-top: rem(112px);
     margin-top: rem(-60px);
 
@@ -40,10 +33,32 @@
 
   &__title {
     width: rem(700px);
-    font-size: rem(104px);
-    margin-left: rem(120px);
+    font-size: rem(48px);
+    // margin-left: rem(120px);
+    // margin-left: rem(40px);
     margin-top: rem(100px);
-    opacity: 0.8;
+    margin-top: rem(128px);
+    opacity: 0.9;
+    font-family: 'GothamSSm';
+    text-transform: uppercase;
+    letter-spacing: 0.35em;
+
+    transition: $transition 1s;
+  }
+
+  &__subtitle {
+    width: fit-content;
+    font-size: rem(24px);
+    margin: rem(192px) auto 0;
+    margin: rem(252px) auto 0;
+    padding: rem(16px);
+    opacity: 0.9;
+    font-family: 'GothamSSm';
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    text-align: center;
+    border: rem(4px) solid #fff;
+    opacity: 0.9;
 
     transition: $transition 1s;
   }
