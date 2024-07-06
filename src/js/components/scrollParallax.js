@@ -7,7 +7,7 @@ export const scrollParallax = () => {
 
     parallaxItems.forEach((item) => {
       item.style.top = -distance * item.getAttribute('data-parallax-speed') + 'px';
-      item.style.transition = '1s ease-out';
+      item.style.transition = '0.75s ease-out';
     });
   });
 };
