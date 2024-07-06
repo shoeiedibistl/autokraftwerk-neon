@@ -1,7 +1,7 @@
 .cursor-element {
   position: fixed;
-  top: 0;
-  left: 0;
+  top: -100px;
+  left: -100px;
   //  transform: translate(calc(-50% + 1px), calc(-50% + 1px));
   transform: translate(-50%, -50%);
 
