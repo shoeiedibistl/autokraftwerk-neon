@@ -14,5 +14,9 @@
     @media #{media('<',d)} {
       overflow-y: auto;
     }
+
+    .header__logo {
+      display: block;
+    }
   }
 }

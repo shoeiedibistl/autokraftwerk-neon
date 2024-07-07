@@ -32,6 +32,10 @@
     }
   }
 
+  &__logo {
+    display: none;
+  }
+
   &__nav {
     display: flex;
     gap: rem(40px);
@@ -75,6 +79,7 @@
     box-shadow: 0 0 rem(12px) 0 transparent;
 
     transition: $transition;
+    transition-duration: 1s;
   }
 
   &.fix {
@@ -109,6 +114,7 @@
       top: 0;
       box-shadow: 0 0 rem(12px) rem(12px) rgba(204, 204, 204, 20%);
       transition: $transition, box-shadow 1s ease-in-out;
+      transition-duration: 1s;
     }
   }
 }
