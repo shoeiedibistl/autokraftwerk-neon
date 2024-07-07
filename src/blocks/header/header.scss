@@ -16,10 +16,20 @@
   }
 
   &__inner {
-    padding: rem(40px) rem(60px) rem(20px);
+    position: relative;
+
+    padding: rem(32px) rem(60px);
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    //align-items: center;
+
+    transition: $transition;
+
+    .neon-logo {
+      position: absolute;
+      top: rem(32px);
+      left: rem(60px);
+    }
   }
 
   &__nav {
@@ -52,6 +62,53 @@
           opacity: 1;
         }
       }
+    }
+  }
+
+  &__bg {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: -150%;
+    background: rgb(6, 4, 2);
+    box-shadow: 0 0 rem(12px) 0 transparent;
+
+    transition: $transition;
+  }
+
+  &.fix {
+    //    .header__inner {
+    //     padding-top: rem(32px);
+    //   }
+
+    .header__logo {
+      opacity: 0.9;
+
+      * {
+        animation: none !important;
+        background-image: none !important;
+        color: #fff !important;
+        text-shadow: none !important;
+      }
+
+      .neon-logo {
+        top: rem(20px);
+      }
+
+      .neon-logo__auto {
+        font-size: rem(32px);
+      }
+
+      .neon-logo__kraftwerk {
+        font-size: rem(20.5px);
+      }
+    }
+
+    .header__bg {
+      top: 0;
+      box-shadow: 0 0 rem(12px) rem(12px) rgba(204, 204, 204, 20%);
+      transition: $transition, box-shadow 1s ease-in-out;
     }
   }
 }
