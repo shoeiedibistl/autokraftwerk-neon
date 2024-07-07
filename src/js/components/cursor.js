@@ -1,6 +1,6 @@
 export const myCursor = () => {
   const myCursorLement = document.querySelector('[data-cursor-element]');
-  const myLinks = document.querySelectorAll('a[href]');
+  const myLinks = document.querySelectorAll('[data-clickable-element]');
 
   document.addEventListener('mousemove', function (event) {
     const cursorX = event.clientX;
