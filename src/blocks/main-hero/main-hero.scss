@@ -52,6 +52,10 @@
     line-height: 1.2;
 
     transition: $transition 1s;
+
+    span {
+      position: relative;
+    }
   }
 
   &__subtitle {
