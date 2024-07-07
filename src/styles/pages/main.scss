@@ -2,6 +2,10 @@
   overflow: hidden;
   background: rgb(6, 4, 2);
 
+  [data-hide-on-load] {
+    display: none;
+  }
+
   &.loaded {
     //overflow-y: auto;
     [data-page-loaded='hide'] {
@@ -16,6 +20,10 @@
     }
 
     .header__logo {
+      display: block;
+    }
+
+    [data-hide-on-load] {
       display: block;
     }
   }

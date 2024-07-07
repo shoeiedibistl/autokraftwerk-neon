@@ -4,8 +4,7 @@ let lenis = 0;
 var is_safari = /^((?!chrome|android).)*safari/i.test(navigator.userAgent);
 
 export const initLenis = () => {
-  if (window.screen.width > 1024 && !is_safari) {
-    console.log('lenis');
+  if (window.screen.width > 1200 && !is_safari) {
     lenis = new Lenis({
       duration: 1.2,
       easing: function (t) {
